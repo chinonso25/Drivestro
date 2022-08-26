@@ -39,7 +39,7 @@ function DetailsForm() {
       <hr style={{ width: "100%" }} />
 
       <div style={{ textAlign: "center" }}>
-        <Text>Don&apos;t have an account</Text>
+        <Text>Don&apos;t have an account </Text>
         <Link>Sign up</Link>
       </div>
     </Container>
