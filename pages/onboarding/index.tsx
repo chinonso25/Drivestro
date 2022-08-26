@@ -25,7 +25,7 @@ function CompanyLogo() {
   );
 }
 
-function StepOne({ progressStep }) {
+function StepOne({ progressStep }: any) {
   return (
     <Container>
       <Container css={{ p: 0, m: 0, w: 125 }}>
@@ -67,7 +67,7 @@ function StepOne({ progressStep }) {
   );
 }
 
-function StepTwo({ progressStep }) {
+function StepTwo({ progressStep }: any) {
   return (
     <Container>
       <Spacer />
@@ -117,7 +117,7 @@ function OnboardFlow() {
       case 1:
         return <StepTwo progressStep={setPage} />;
       case 2:
-        return <StepThird progressStep={setPage} />;
+        return <StepThird />;
       default:
         return <StepOne />;
     }

@@ -61,7 +61,7 @@ function SignUp() {
         <Spacer y={1} />
         <Button
           icon={<AiFillGoogleCircle />}
-          color="none"
+          color={undefined}
           css={{
             alignSelf: "center",
             justifySelf: "center",
